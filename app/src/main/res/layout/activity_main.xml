@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/images" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -40,7 +40,7 @@
         android:importantForAutofill="no"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.446" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
