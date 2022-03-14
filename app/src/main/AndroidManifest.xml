@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleConstraintLayout">
+        <activity android:name=".DaftarActivity"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
         <activity android:name=".Tugas2"
             android:parentActivityName=".MainActivity"
             android:label="@string/label2">
