@@ -13,6 +13,14 @@
             android:parentActivityName=".MainActivity">
 
         </activity>
+        <activity android:name=".ActivityLihatData"
+            android:parentActivityName=".Home_Activity">
+
+        </activity>
+        <activity android:name=".Home_Activity"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
         <activity android:name=".Tugas2"
             android:parentActivityName=".MainActivity"
             android:label="@string/label2">
